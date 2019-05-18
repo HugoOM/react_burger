@@ -7,6 +7,7 @@ const buildControl = props => (
     <button
       className={styles.Less}
       onClick={() => props.removeIngredient(props.type)}
+      disabled={props.ingredientCount === 0}
     >
       Less
     </button>
