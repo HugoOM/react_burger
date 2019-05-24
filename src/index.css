@@ -1,3 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-brown: #8f5c2c;
+  --color-blue: #40a4c8;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
