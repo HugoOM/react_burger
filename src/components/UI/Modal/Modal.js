@@ -19,5 +19,7 @@ const modal = props => (
 
 export default memo(
   modal,
-  (prevProps, nextProps) => prevProps.show === nextProps.show
+  (prevProps, nextProps) =>
+    prevProps.show === nextProps.show &&
+    prevProps.children === nextProps.children
 );
